@@ -61,18 +61,14 @@ export default function Home() {
       <Hero />
 
       {/* Sketch Cover Image */}
-      <div style={styles.container}>
+      <div className="sketch-cover-container">
         {!showModal ? (
           <Image
             src="/sketchCover.png"
             alt="Sketch Cover"
             width={300}
             height={300}
-            style={{
-              ...styles.image,
-              transform: isHovered ? "scale(1.1)" : "scale(1)",
-              transition: "transform 0.2s",
-            }}
+            className={`sketch-cover-image ${isHovered ? "hovered" : ""}`}
             onClick={handleClick}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
@@ -83,23 +79,24 @@ export default function Home() {
             alt={`Page ${currentPageIndex + 1} Image`}
             width={300}
             height={300}
-            style={{ cursor: "pointer" }}
+            className="modal-image"
           />
         )}
       </div>
 
       {/* Modal for the enlarged images */}
       {showModal && (
-        <div className="modal" style={styles.modal}>
-          <div className="modal-content" style={styles.modalContent}>
+        <div className="modal">
+          <div className="modal-content">
             <Image
               src={pages[currentPageIndex]}
               alt={`Page ${currentPageIndex + 1} Enlarged`}
-              width={500}
-              height={500}
-              style={{ objectFit: "contain" }}
+              width={500} // Initial width for larger screens
+              height={500} // Initial height for larger screens
+              className="modal-image"
+              onClick={closeModal} // Optional: Close modal on image click
             />
-            <div className="navigation-buttons" style={styles.navButtons}>
+            <div className="nav-buttons">
               <button onClick={goToPreviousPage}>Previous</button>
               <button onClick={closeModal}>Close</button>
               <button onClick={goToNextPage}>Next</button>
@@ -112,7 +109,7 @@ export default function Home() {
   );
 }
 
-// Styling
+// Styling (remove inline styles related to the modal)
 const styles = {
   container: {
     display: "flex",
@@ -126,26 +123,5 @@ const styles = {
   image: {
     cursor: "pointer",
   },
-  modal: {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    backgroundColor: "rgba(0,0,0,0.8)",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  modalContent: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-  },
-  navButtons: {
-    display: "flex",
-    justifyContent: "center",
-    gap: "10px",
-    marginTop: "10px",
-  },
+  // Remove modal styles from here as they're moved to CSS
 };
