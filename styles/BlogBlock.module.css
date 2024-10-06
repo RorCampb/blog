@@ -1,0 +1,86 @@
+/* styles/BlogBlock.module.css */
+
+/* styles/Blog.module.css */
+
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+    background-color: transparent; /* Optional: Light background for contrast */
+}
+
+/* styles/BlogBlock.module.css */
+
+.blogBlock {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--desktop-bg-color);
+    color: var(--desktop-text-color);
+    border-radius: 16px; /* Adjusted for a balanced look */
+    //box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    width: 90%; /* Full width on small screens */
+    max-width: 600px; /* Limits width on medium screens */
+    box-sizing: border-box;
+    text-align: left; /* Left-align text for readability on larger screens */
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.blogBlock:hover {
+    //transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: var(--desktop-text-color);
+}
+
+.content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the start */
+}
+
+.supplementalImage {
+    width: 100%; /* Match the width of the blog column */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    object-fit: contain; /* Prevent image distortion */
+    margin: 20px 0;
+    border-radius: 8px; /* Rounded corners for aesthetics */
+}
+
+/* Responsive Styles */
+
+/* Medium Screens (Tablets and Small Desktops) */
+@media (min-width: 768px) {
+    .blogBlock {
+        width: 60%; /* Approximately middle third */
+        max-width: none; /* Remove max-width to allow percentage-based width */
+    }
+}
+
+/* Large Desktops */
+@media (min-width: 1024px) {
+    .blogBlock {
+        width: 33%; /* Exact middle third */
+    }
+}

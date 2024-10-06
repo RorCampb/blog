@@ -1,0 +1,63 @@
+.workHeader {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Blog Text Styles */
+.blogText {
+    /* Typography */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.3rem; /* Base font size */
+    font-weight: 750;
+    line-height: 1.6; /* Comfortable line spacing */
+    color: #ffffff; /* Dark gray text for better contrast */
+
+    /* Layout */
+    max-width: 800px; /* Maximum width for optimal readability */
+    margin: 0 auto; /* Center the block horizontally */
+    padding: 20px; /* Internal padding for spacing */
+
+    /* Text Alignment */
+    text-align: left; /* Align text to the left for standard readability */
+
+    /* Additional Styling
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.05
+    ); /* Slightly transparent background for subtle contrast */
+    border-radius: 8px; /* Rounded corners for aesthetic appeal */
+
+    /* Box Shadow for Depth */
+    //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow to elevate the content */
+
+    /* Responsive Design */
+    width: 90%; /* Default width on smaller screens */
+}
+
+@media (min-width: 768px) {
+    .blogText {
+        width: 80%; /* Slightly wider on medium screens */
+        padding: 30px; /* Increased padding for larger screens */
+    }
+    .blogHeader {
+        width: 80%; /* Slightly wider on medium screens */
+        padding: 30px; /* Increased padding for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .blogText {
+        width: 60%; /* More constrained width on large screens for better readability */
+        padding: 40px; /* Further increased padding */
+    }
+    .blogHeader {
+        width: 60%; /* More constrained width on large screens for better readability */
+        padding: 40px; /* Further increased padding */
+    }
+}
