@@ -95,8 +95,8 @@ export default function Home() {
             <Image
               src={pages[currentPageIndex]}
               alt={`Page ${currentPageIndex + 1} Enlarged`}
-              width={600}
-              height={600}
+              width={500}
+              height={500}
               style={{ objectFit: "contain" }}
             />
             <div className="navigation-buttons" style={styles.navButtons}>
