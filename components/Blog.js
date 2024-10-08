@@ -7,21 +7,24 @@ import "../styles/globals.css";
 export default function Blog() {
   const blogPosts = [
     {
-      title: "What Tools Keep Us Alive The Longest?",
+      title: "The Tools That Keep Us Alive",
       description: "What Prospero knew that we didn't",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
       content: (
         <>
-          <img
-            className={styles.supplementalImage}
-            src="../tempestImg.png"
-            alt="The Tempest"
-            href="http://shakespeare.mit.edu/tempest/full.html"
-          />
+          <a href="http://shakespeare.mit.edu/tempest/full.html">
+            <img
+              className={styles.supplementalImage}
+              src="../tempestImg.png"
+              alt="The Tempest"
+              href="http://shakespeare.mit.edu/tempest/full.html"
+              onClick={() => "http://shakespeare.mit.edu/tempest/full.html"}
+            />
+          </a>
           <p>
-            William Shakespeare's was well aware that The Tempest was the last
+            William Shakespeare was well aware that The Tempest was the last
             work in his career. The play is a story of forgiveness. More
             specifically, choosing to forgive. Prospero, the main character, is
             the former Duke of Milan...and an advanced sorcerer. After being
@@ -106,14 +109,13 @@ export default function Blog() {
           <p>
             So, all I am thinking is what would happen if we woke up and decided
             to forgive EVERYONE? Prospero must have imagined obliterating his
-            brother and his crew. It would be easy. Like, he was a wizard dude.
-            I will be the first to admit that rage bait Twitter threads have a
-            special place in my heart. But, what do we gain when we fuel
-            ourselves with contempt? You would think that we gain nothing.
-            Unfortunately, it's much worse than that. All of that hatred comes
-            back to us. Our world is self-centric, meaning that all the negative
-            feelings we project onto others are the same ones we feel from
-            ourselves.
+            brother and his crew. It would be easy. And, I will be the first to
+            admit, rage bait Twitter threads have a special place in my heart.
+            But, what do we gain when we fuel ourselves with contempt? You would
+            think that we gain nothing. Unfortunately, it's much worse than
+            that. All of that hatred comes back to us. Our world is
+            self-centric, meaning that all the negative feelings we project onto
+            others are the same ones we feel from ourselves.
           </p>
           <br />
           <p>
@@ -132,8 +134,25 @@ export default function Blog() {
           <p>Basically, start being more understanding, it helps.</p>
         </>
       ),
-    },
-    // Add more blog posts here
+    } /*
+    {
+      title: "What Tools Keep Us Alive The Longest?",
+      description: "What Prospero knew that we didn't",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+      <>
+        <img
+          className={styles.supplementalImage}
+          src="../tempestImg.png"
+          alt="The Tempest"
+          href="http://shakespeare.mit.edu/tempest/full.html"
+        />
+
+        </>
+      ),
+      },*/,
   ];
 
   return (
