@@ -25,7 +25,7 @@ export default function Blog() {
           </a>
           <p>
             William Shakespeare was well aware that The Tempest was the last
-            work in his career. The play is a story of forgiveness. More
+            work in his career. His play is a story of forgiveness. More
             specifically, choosing to forgive. Prospero, the main character, is
             the former Duke of Milan...and an advanced sorcerer. After being
             overthrown by his brother, Antonio, he is exiled to a remote island
@@ -107,15 +107,15 @@ export default function Blog() {
           </p>
           {/* Example of supplemental image */}
           <p>
-            So, all I am thinking is what would happen if we woke up and decided
-            to forgive EVERYONE? Prospero must have imagined obliterating his
-            brother and his crew. It would be easy. And, I will be the first to
-            admit, rage bait Twitter threads have a special place in my heart.
-            But, what do we gain when we fuel ourselves with contempt? You would
-            think that we gain nothing. Unfortunately, it's much worse than
-            that. All of that hatred comes back to us. Our world is
-            self-centric, meaning that all the negative feelings we project onto
-            others are the same ones we feel from ourselves.
+            What would happen if we woke up and decided to forgive EVERYONE?
+            Prospero must have imagined obliterating his brother and his crew.
+            It would be easy. And, I will be the first to admit, rage bait
+            Twitter threads have a special place in my heart. But, what do we
+            gain when we fuel ourselves with contempt? You would think that we
+            gain nothing. Unfortunately, it's much worse than that. All of that
+            hatred comes back to us. Our world is self-centric, the negative
+            feelings we project onto others are the same ones we feel from
+            ourselves.
           </p>
           <br />
           <p>
@@ -126,8 +126,8 @@ export default function Blog() {
             In the story, Prospero could have chose to kill everyone before they
             even reached the island. We know that's not how he operates though!
             In fact, the choice to let them onto the island is what gives the
-            entourage an opportunity to see the perspective of the person they
-            have wronged. It's beautiful!
+            entourage an opportunity to see from Prospero's perspective. It's
+            beautiful!
           </p>
           <br />
           <br />
