@@ -8,7 +8,14 @@ import "../styles/globals.css";
 
 export default function Home() {
   // Array of page images for the modal
-  const pages = ["/page1.png", "/page2.png", "/page3.png", "/page4.png"];
+  const pages = [
+    "/page1.png",
+    "/page2.png",
+    "/page3.png",
+    "/page4.png",
+    "/page5.png",
+    "/page6.png",
+  ];
 
   // State to manage current page index and modal visibility
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
