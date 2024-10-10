@@ -134,6 +134,35 @@ export default function Blog() {
           <p>Basically, start being more understanding, it helps.</p>
         </>
       ),
+    },
+    {
+      title: "Thanks Steve Lacy",
+      description: "Our boredom is polar!",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <a href="https://www.youtube.com/watch?v=PUQfNBzMjiw">
+            <img
+              className={styles.supplementalImage}
+              src="../isthisstevelacy.png"
+              alt="The Tempest"
+              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+              onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+            />
+          </a>
+          <p>Steve Lacy is coming back. At least according to him.</p>
+          <br />
+          <p>
+            I have a feeling that Steve is going to do some DESPICABLE things.
+            He has shown from the time he got popular that he is a versatile
+            musician. Everyone loves his guitar skills, but the drums he puts on
+            his tracks are equally exceptional. Seriously, listen to his outro
+            on Apollo XXI (link on Michael).
+          </p>
+        </>
+      ),
     } /*
     {
       title: "What Tools Keep Us Alive The Longest?",
@@ -153,6 +182,7 @@ export default function Blog() {
         </>
       ),
       },*/,
+    ,
   ];
 
   return (
