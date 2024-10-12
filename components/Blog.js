@@ -180,7 +180,7 @@ export default function Blog() {
             onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
           />
           <p>
-            There are still a lot of empty wall space in my apartment. As of
+            There is still a lot of empty wall space in my apartment. As of
             right now, the vibe is lighter wood accents, muted blue fabrics, and
             mid-century forms.
           </p>
