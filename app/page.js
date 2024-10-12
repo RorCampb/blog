@@ -65,13 +65,14 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>rorycampbell.me</title>
-        <meta name="rorycampbell" content="some stuff I like" />
-      </Head>
-      {/* Hero Section */}
-      <Hero />
-
+      <divdiv>
+        <Head>
+          <title>rorycampbell</title>
+          <meta name="rorycampbell" content="some stuff I like" />
+        </Head>
+        {/* Hero Section */}
+        <Hero />
+      </div>
       {/* Sketch Cover Image */}
       <div className="sketch-cover-container">
         {!showModal ? (
