@@ -1,14 +1,13 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero";
-import Blocks from "../components/Blocks";
 import Blog from "../components/Blog";
 import "../styles/globals.css";
 
 export default function Home() {
-  // Array of page images for the modal
   const pages = [
     "/page1.png",
     "/page2.png",
@@ -18,23 +17,19 @@ export default function Home() {
     "/page6.png",
   ];
 
-  // State to manage current page index and modal visibility
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
-  // Open modal
   const handleClick = () => {
     setShowModal(true);
   };
 
-  // Close modal and reset the current page
   const closeModal = () => {
     setShowModal(false);
     setCurrentPageIndex(0);
   };
 
-  // Navigate between pages in modal
   const goToPreviousPage = () => {
     setCurrentPageIndex((prevIndex) =>
       prevIndex === 0 ? pages.length - 1 : prevIndex - 1,
@@ -55,25 +50,28 @@ export default function Home() {
     setIsHovered(false);
   };
 
-  // Set background color and height for the body
   useEffect(() => {
     document.body.style.height = "100vh";
+
+    // Dynamic title based on modal state
+    document.title = showModal
+      ? `Viewing Page ${currentPageIndex + 1}`
+      : "rorycampbell";
+
     return () => {
       document.body.style.backgroundColor = "";
     };
-  }, []);
+  }, [showModal, currentPageIndex]);
 
   return (
     <>
+      <Head>
+        <title>rorycampbell</title>
+        <meta name="description" content="some stuff I like" />
+      </Head>
       <div>
-        <Head>
-          <title>rorycampbell</title>
-          <meta name="rorycampbell" content="some stuff I like" />
-        </Head>
-        {/* Hero Section */}
         <Hero />
       </div>
-      {/* Sketch Cover Image */}
       <div className="sketch-cover-container">
         {!showModal ? (
           <Image
@@ -97,17 +95,16 @@ export default function Home() {
         )}
       </div>
 
-      {/* Modal for the enlarged images */}
       {showModal && (
         <div className="modal">
           <div className="modal-content">
             <Image
               src={pages[currentPageIndex]}
               alt={`Page ${currentPageIndex + 1} Enlarged`}
-              width={500} // Initial width for larger screens
-              height={500} // Initial height for larger screens
+              width={500}
+              height={500}
               className="modal-image"
-              onClick={closeModal} // Optional: Close modal on image click
+              onClick={closeModal}
             />
             <div className="nav-buttons">
               <button onClick={goToPreviousPage}>Previous</button>
@@ -121,20 +118,3 @@ export default function Home() {
     </>
   );
 }
-
-// Styling (remove inline styles related to the modal)
-const styles = {
-  container: {
-    display: "flex",
-    justifyContent: "center", // Centers the sketch cover image horizontally
-    alignItems: "center", // Centers the image vertically
-    height: "50vh", // Adjust height to center the image within the page
-    backgroundColor: "transparent",
-    paddingTop: "35vh",
-    paddingBottom: "15vh",
-  },
-  image: {
-    cursor: "pointer",
-  },
-  // Remove modal styles from here as they're moved to CSS
-};
