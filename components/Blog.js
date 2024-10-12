@@ -163,26 +163,43 @@ export default function Blog() {
           </p>
         </>
       ),
-    } /*
+    },
     {
-      title: "What Tools Keep Us Alive The Longest?",
-      description: "What Prospero knew that we didn't",
+      title: "New Shelf?",
+      description: "",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
       content: (
-      <>
-        <img
-          className={styles.supplementalImage}
-          src="../tempestImg.png"
-          alt="The Tempest"
-          href="http://shakespeare.mit.edu/tempest/full.html"
-        />
-
+        <>
+          <img
+            className={styles.supplementalImageType2}
+            src="../shelf.png"
+            alt="My Shelf"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+          />
+          <p>
+            There are still a lot of empty wall space in my apartment. As of
+            right now, the vibe is lighter wood accents, muted blue fabrics, and
+            mid-century forms.
+          </p>
+          <br />
+          <p>
+            A lot of the inspiration, besides some basic sillouhettes from the
+            Internet, came from this Marc Jacobs storefront I passed on the way
+            to the movies last week.
+          </p>
+          <img
+            className={styles.supplementalImage}
+            src="../marcjacobsstorefront.png"
+            alt="My Shelf"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+          />
         </>
       ),
-      },*/,
-    ,
+    },
   ];
 
   return (
