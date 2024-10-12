@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero";
 import Blocks from "../components/Blocks";
@@ -64,6 +65,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>rorycampbell.me</title>
+        <meta name="rorycampbell" content="some stuff I like" />
+      </Head>
       {/* Hero Section */}
       <Hero />
 
