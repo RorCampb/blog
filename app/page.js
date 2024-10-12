@@ -65,7 +65,7 @@ export default function Home() {
 
   return (
     <>
-      <divdiv>
+      <div>
         <Head>
           <title>rorycampbell</title>
           <meta name="rorycampbell" content="some stuff I like" />
