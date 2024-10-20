@@ -200,6 +200,53 @@ export default function Blog() {
         </>
       ),
     },
+    {
+      title: "Boat Boots!",
+      description: "Sperry boots...kinda",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            className={styles.supplementalImageType2}
+            src="../boots.png"
+            alt="My Boots"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+          Miu Miu is, unsurprisingly, making me very happy with the trends they
+          are bringing to the table. It seems like it was only yesterday when we
+          were (tastefully) flaunting Nike Elite socks, elegantly complimented
+          with the washed leather of some Sperrys.
+          <img
+            className={styles.supplementalImageType2}
+            src="../brown-leather-miu-miu-flats-45177596-1_2.jpg.webp"
+            alt="My Shelf"
+            href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
+            onClick={() =>
+              "https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
+            }
+          />
+          <p>
+            The boots are not a direct rip of the topsider sillouhette. At
+            least, I hope. Their real inspiration is derived from the
+            mocassin-like seams that run across the front of the shoe, as well
+            as the large flappy upper. To give them a little ruggedness, I also
+            added a thicker sole.
+          </p>
+          <br />
+          <p>
+            I would like to think that the owners of these boots could be found
+            in a variety of places. Maybe a sailing adventure, a walk in the
+            park, trip to the grocery store, hike in the mountains? Honestly,
+            any environment will do, the only thing I really want to come from
+            this concept is an inspiration to bring more natural materials into
+            my work.
+          </p>
+        </>
+      ),
+    },
   ];
 
   return (
