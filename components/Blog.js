@@ -215,19 +215,23 @@ export default function Blog() {
             href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
             onClick={() => ""}
           />
-          Miu Miu is, unsurprisingly, making me very happy with the trends they
-          are bringing to the table. It seems like it was only yesterday when we
-          were (tastefully) flaunting Nike Elite socks, elegantly complimented
-          with the washed leather of some Sperrys.
-          <img
-            className={styles.supplementalImageType2}
-            src="../brown-leather-miu-miu-flats-45177596-1_2.jpg.webp"
-            alt="My Shelf"
-            href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
-            onClick={() =>
-              "https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
-            }
-          />
+          <p>
+            Miu Miu is, unsurprisingly, making me very happy with the trends
+            they are starting. It seems like it was only yesterday when we were
+            (tastefully) flaunting Nike Elite socks, complimented with a pair of
+            Sperrys.
+          </p>
+          <a href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005">
+            <img
+              className={styles.supplementalImageType2}
+              src="../brown-leather-miu-miu-flats-45177596-1_2.jpg.webp"
+              alt="unlined-bleached-leather-loafers"
+              href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
+              onClick={() =>
+                "https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
+              }
+            />
+          </a>
           <p>
             The boots are not a direct rip of the topsider sillouhette. At
             least, I hope. Their real inspiration is derived from the
@@ -241,8 +245,7 @@ export default function Blog() {
             in a variety of places. Maybe a sailing adventure, a walk in the
             park, trip to the grocery store, hike in the mountains? Honestly,
             any environment will do, the only thing I really want to come from
-            this concept is an inspiration to bring more natural materials into
-            my work.
+            this concept is more concepts.
           </p>
         </>
       ),
