@@ -23,7 +23,7 @@ body {
     --header-bg-color: rgba(220, 220, 220, 1); /* Semi-transparent white */
     --header-text-color: #000000; /* Black text */
     --header-text-size: 1.1rem;
-    --clock-text-size: 0.7rem;
+    --clock-text-size: 0.85rem;
     --header-max-width: 1200px;
 }
 
@@ -91,9 +91,11 @@ body {
 
 /* Clock Styles */
 .clock {
-    font-family: Verdana, sans-serif;
-    font-weight: 500; /* Lighter font weight */
-    font-size: var(--clock-text-size); /* Use rem for scalability */
+    /* font-family: Verdana, sans-serif;
+    font-weight: 500;Lighter font weight*/
+    font-size: var(--clock-text-size);
+    font-family: "Courier New", monospace;
+    font-weight: bold;
     text-align: center;
     color: var(--header-text-color); /* Dark text for contrast */
     margin-top: 1px; /* Spacing below the hero text */

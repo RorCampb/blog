@@ -49,6 +49,13 @@
     margin-top: 10px;
     color: var(--desktop-text-color);
 }
+.timestamp {
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: var(--desktop-text-color);
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
 
 .content {
     font-size: 1rem;

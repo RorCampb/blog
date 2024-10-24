@@ -9,6 +9,7 @@ export default function Blog() {
     {
       title: "The Tools That Keep Us Alive",
       description: "What Prospero knew that we didn't",
+      timestamp: "10:06:2024",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
@@ -138,6 +139,7 @@ export default function Blog() {
     {
       title: "Thanks Steve Lacy",
       description: "Our boredom is polar!",
+      timestamp: "10:12:2024",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
@@ -167,6 +169,7 @@ export default function Blog() {
     {
       title: "New Shelf?",
       description: "",
+      timestamp: "10:14:2024",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
@@ -190,19 +193,22 @@ export default function Blog() {
             Internet, came from this Marc Jacobs storefront I passed on the way
             to the movies last week.
           </p>
-          <img
-            className={styles.supplementalImage}
-            src="../marcjacobsstorefront.png"
-            alt="My Shelf"
-            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-            onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
-          />
+          <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DdfafPe1rEPk&ved=2ahUKEwjN36-v-qWJAxW95ckDHQm0Ob8QwqsBegQIAhAF&usg=AOvVaw2dvHPKtD2P-QaFszA14ySM">
+            <img
+              className={styles.supplementalImage}
+              src="../marcjacobsstorefront.png"
+              alt="My Shelf"
+              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+              onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+            />
+          </a>
         </>
       ),
     },
     {
       title: "Boat Boots!",
       description: "Sperry boots...kinda",
+      timestamp: "10:20:2024",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
@@ -259,6 +265,7 @@ export default function Blog() {
           key={index}
           title={post.title}
           description={post.description}
+          timestamp={post.timestamp}
           desktopBackgroundColor={post.desktopBackgroundColor}
           desktopTextColor={post.desktopTextColor}
           mobileTextColor={post.mobileTextColor}
