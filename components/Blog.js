@@ -256,6 +256,49 @@ export default function Blog() {
         </>
       ),
     },
+    {
+      title: "Rory Font",
+      description: "A tedious new idea",
+      timestamp: "10:30:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>
+            Some time has passed, I know. But fret not! I can assure you that
+            there is an abundance of new ideas still at my disposal.
+          </p>
+          <p>
+            It is one of these new ideas that has taken me away from the blog
+            for the week (as well as a Bladee concert).
+          </p>
+          <img
+            className={styles.supplementalImageType2}
+            src="../font.png"
+            alt="My font"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+          <p>
+            As you could see, there is a lot left to be imagined. What you CAN
+            imagine, I hope, is a typeface that demonstrates clarity.
+          </p>
+          <br />
+          <p>
+            In other news, I recently revisited photoshop to play around with
+            some pictures I took at a sculpture garden.
+          </p>
+          <img
+            className={styles.supplementalImageType2}
+            src="../tealskyconcept.png"
+            alt="My font"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+        </>
+      ),
+    },
   ];
 
   return (
