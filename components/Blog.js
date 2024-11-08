@@ -299,6 +299,42 @@ export default function Blog() {
         </>
       ),
     },
+    {
+      title: "Tealsky Promo",
+      description: "Streaming right now (spotify link on the picture)",
+      timestamp: "11:07:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <a href="https://open.spotify.com/album/7FwnfDrPIpwo8h2leFlCjR?si=6oGbuNzrR0itRnoHV8_f5g">
+            <img
+              className={styles.supplementalImageType2}
+              src="../redeyes.png"
+              alt="My font"
+              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+              onClick={() => ""}
+            />
+          </a>
+          <p>
+            I guess you could call me a 'creative director'. Actually, not yet.
+            As of right now, this promo cover has not been used. But that is not
+            to say it won't happen!
+          </p>
+          <p>
+            Tealsky is a promising band whose drummer is a close friend of mine.
+            Whether its publicized or not, I could never pass up a creative
+            opportunity.
+          </p>
+          <p>
+            If you are reading this, I have good ideas! Look at them, and if you
+            think the same, let me know. I am always looking for a chance to
+            make something.
+          </p>
+        </>
+      ),
+    },
   ];
 
   return (
