@@ -7,6 +7,205 @@ import "../styles/globals.css";
 export default function Blog() {
   const blogPosts = [
     {
+      title: "Tealsky Promo",
+      description: "Streaming right now (spotify link on the picture)",
+      timestamp: "11:07:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <a href="https://open.spotify.com/album/7FwnfDrPIpwo8h2leFlCjR?si=6oGbuNzrR0itRnoHV8_f5g">
+            <img
+              className={styles.supplementalImageType2}
+              src="../redeyes.png"
+              alt="My font"
+              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+              onClick={() => ""}
+            />
+          </a>
+          <p>
+            I guess you could call me a 'creative director'. Actually, not yet.
+            As of right now, this promo cover has not been used. But that is not
+            to say it won't happen!
+          </p>
+          <p>
+            Tealsky is a promising band whose drummer is a close friend of mine.
+            Whether its publicized or not, I could never pass up a creative
+            opportunity.
+          </p>
+          <p>
+            If you are reading this, I have good ideas! Look at them, and if you
+            think the same, let me know. I am always looking for a chance to
+            make something.
+          </p>
+        </>
+      ),
+    },
+    {
+      title: "Rory Font",
+      description: "A tedious new idea",
+      timestamp: "10:30:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>
+            Some time has passed, I know. But fret not! I can assure you that
+            there is an abundance of new ideas still at my disposal.
+          </p>
+          <p>
+            It is one of these new ideas that has taken me away from the blog
+            for the week (as well as a Bladee concert).
+          </p>
+          <img
+            className={styles.supplementalImageType2}
+            src="../font.png"
+            alt="My font"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+          <p>
+            As you could see, there is a lot left to be imagined. What you CAN
+            imagine, I hope, is a typeface that demonstrates clarity.
+          </p>
+          <br />
+          <p>
+            In other news, I recently revisited photoshop to play around with
+            some pictures I took at a sculpture garden.
+          </p>
+          <img
+            className={styles.supplementalImageType2}
+            src="../tealskyconcept.png"
+            alt="My font"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+        </>
+      ),
+    },
+    {
+      title: "Boat Boots!",
+      description: "Sperry boots...kinda",
+      timestamp: "10:20:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            className={styles.supplementalImageType2}
+            src="../boots.png"
+            alt="My Boots"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+          <p>
+            Miu Miu is, unsurprisingly, making me very happy with the trends
+            they are starting. It seems like it was only yesterday when we were
+            (tastefully) flaunting Nike Elite socks, complimented with a pair of
+            Sperrys.
+          </p>
+          <a href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005">
+            <img
+              className={styles.supplementalImageType2}
+              src="../brown-leather-miu-miu-flats-45177596-1_2.jpg.webp"
+              alt="unlined-bleached-leather-loafers"
+              href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
+              onClick={() =>
+                "https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
+              }
+            />
+          </a>
+          <p>
+            The boots are not a direct rip of the topsider sillouhette. At
+            least, I hope. Their real inspiration is derived from the
+            mocassin-like seams that run across the front of the shoe, as well
+            as the large flappy upper. To give them a little ruggedness, I also
+            added a thicker sole.
+          </p>
+          <br />
+          <p>
+            I would like to think that the owners of these boots could be found
+            in a variety of places. Maybe a sailing adventure, a walk in the
+            park, trip to the grocery store, hike in the mountains? Honestly,
+            any environment will do, the only thing I really want to come from
+            this concept is more concepts.
+          </p>
+        </>
+      ),
+    },
+    {
+      title: "New Shelf?",
+      description: "",
+      timestamp: "10:14:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            className={styles.supplementalImageType2}
+            src="../shelf.png"
+            alt="My Shelf"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+          />
+          <p>
+            There is still a lot of empty wall space in my apartment. As of
+            right now, the vibe is lighter wood accents, muted blue fabrics, and
+            mid-century forms.
+          </p>
+          <br />
+          <p>
+            A lot of the inspiration, besides some basic sillouhettes from the
+            Internet, came from this Marc Jacobs storefront I passed on the way
+            to the movies last week.
+          </p>
+          <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DdfafPe1rEPk&ved=2ahUKEwjN36-v-qWJAxW95ckDHQm0Ob8QwqsBegQIAhAF&usg=AOvVaw2dvHPKtD2P-QaFszA14ySM">
+            <img
+              className={styles.supplementalImage}
+              src="../marcjacobsstorefront.png"
+              alt="My Shelf"
+              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+              onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+            />
+          </a>
+        </>
+      ),
+    },
+    {
+      title: "Thanks Steve Lacy",
+      description: "Our boredom is polar!",
+      timestamp: "10:12:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <a href="https://www.youtube.com/watch?v=PUQfNBzMjiw">
+            <img
+              className={styles.supplementalImage}
+              src="../isthisstevelacy.png"
+              alt="The Tempest"
+              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+              onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
+            />
+          </a>
+          <p>Steve Lacy is coming back. At least according to him.</p>
+          <br />
+          <p>
+            I have a feeling that Steve is going to do some DESPICABLE things.
+            He has shown from the time he got popular that he is a versatile
+            musician. Everyone loves his guitar skills, but the drums he puts on
+            his tracks are equally exceptional. Seriously, listen to his outro
+            on Apollo XXI (link on Michael).
+          </p>
+        </>
+      ),
+    },
+    {
       title: "The Tools That Keep Us Alive",
       description: "What Prospero knew that we didn't",
       timestamp: "10:06:2024",
@@ -133,205 +332,6 @@ export default function Blog() {
           <br />
           <br />
           <p>Basically, start being more understanding, it helps.</p>
-        </>
-      ),
-    },
-    {
-      title: "Thanks Steve Lacy",
-      description: "Our boredom is polar!",
-      timestamp: "10:12:2024",
-      desktopBackgroundColor: "transparent",
-      desktopTextColor: "#000000",
-      mobileTextColor: "#000000",
-      content: (
-        <>
-          <a href="https://www.youtube.com/watch?v=PUQfNBzMjiw">
-            <img
-              className={styles.supplementalImage}
-              src="../isthisstevelacy.png"
-              alt="The Tempest"
-              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-              onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
-            />
-          </a>
-          <p>Steve Lacy is coming back. At least according to him.</p>
-          <br />
-          <p>
-            I have a feeling that Steve is going to do some DESPICABLE things.
-            He has shown from the time he got popular that he is a versatile
-            musician. Everyone loves his guitar skills, but the drums he puts on
-            his tracks are equally exceptional. Seriously, listen to his outro
-            on Apollo XXI (link on Michael).
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "New Shelf?",
-      description: "",
-      timestamp: "10:14:2024",
-      desktopBackgroundColor: "transparent",
-      desktopTextColor: "#000000",
-      mobileTextColor: "#000000",
-      content: (
-        <>
-          <img
-            className={styles.supplementalImageType2}
-            src="../shelf.png"
-            alt="My Shelf"
-            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-            onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
-          />
-          <p>
-            There is still a lot of empty wall space in my apartment. As of
-            right now, the vibe is lighter wood accents, muted blue fabrics, and
-            mid-century forms.
-          </p>
-          <br />
-          <p>
-            A lot of the inspiration, besides some basic sillouhettes from the
-            Internet, came from this Marc Jacobs storefront I passed on the way
-            to the movies last week.
-          </p>
-          <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DdfafPe1rEPk&ved=2ahUKEwjN36-v-qWJAxW95ckDHQm0Ob8QwqsBegQIAhAF&usg=AOvVaw2dvHPKtD2P-QaFszA14ySM">
-            <img
-              className={styles.supplementalImage}
-              src="../marcjacobsstorefront.png"
-              alt="My Shelf"
-              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-              onClick={() => "https://www.youtube.com/watch?v=PUQfNBzMjiw"}
-            />
-          </a>
-        </>
-      ),
-    },
-    {
-      title: "Boat Boots!",
-      description: "Sperry boots...kinda",
-      timestamp: "10:20:2024",
-      desktopBackgroundColor: "transparent",
-      desktopTextColor: "#000000",
-      mobileTextColor: "#000000",
-      content: (
-        <>
-          <img
-            className={styles.supplementalImageType2}
-            src="../boots.png"
-            alt="My Boots"
-            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-            onClick={() => ""}
-          />
-          <p>
-            Miu Miu is, unsurprisingly, making me very happy with the trends
-            they are starting. It seems like it was only yesterday when we were
-            (tastefully) flaunting Nike Elite socks, complimented with a pair of
-            Sperrys.
-          </p>
-          <a href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005">
-            <img
-              className={styles.supplementalImageType2}
-              src="../brown-leather-miu-miu-flats-45177596-1_2.jpg.webp"
-              alt="unlined-bleached-leather-loafers"
-              href="https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
-              onClick={() =>
-                "https://www.miumiu.com/kw/en/p/unlined-bleached-leather-loafers/5D123E_3F33_F0038_F_005"
-              }
-            />
-          </a>
-          <p>
-            The boots are not a direct rip of the topsider sillouhette. At
-            least, I hope. Their real inspiration is derived from the
-            mocassin-like seams that run across the front of the shoe, as well
-            as the large flappy upper. To give them a little ruggedness, I also
-            added a thicker sole.
-          </p>
-          <br />
-          <p>
-            I would like to think that the owners of these boots could be found
-            in a variety of places. Maybe a sailing adventure, a walk in the
-            park, trip to the grocery store, hike in the mountains? Honestly,
-            any environment will do, the only thing I really want to come from
-            this concept is more concepts.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "Rory Font",
-      description: "A tedious new idea",
-      timestamp: "10:30:2024",
-      desktopBackgroundColor: "transparent",
-      desktopTextColor: "#000000",
-      mobileTextColor: "#000000",
-      content: (
-        <>
-          <p>
-            Some time has passed, I know. But fret not! I can assure you that
-            there is an abundance of new ideas still at my disposal.
-          </p>
-          <p>
-            It is one of these new ideas that has taken me away from the blog
-            for the week (as well as a Bladee concert).
-          </p>
-          <img
-            className={styles.supplementalImageType2}
-            src="../font.png"
-            alt="My font"
-            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-            onClick={() => ""}
-          />
-          <p>
-            As you could see, there is a lot left to be imagined. What you CAN
-            imagine, I hope, is a typeface that demonstrates clarity.
-          </p>
-          <br />
-          <p>
-            In other news, I recently revisited photoshop to play around with
-            some pictures I took at a sculpture garden.
-          </p>
-          <img
-            className={styles.supplementalImageType2}
-            src="../tealskyconcept.png"
-            alt="My font"
-            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-            onClick={() => ""}
-          />
-        </>
-      ),
-    },
-    {
-      title: "Tealsky Promo",
-      description: "Streaming right now (spotify link on the picture)",
-      timestamp: "11:07:2024",
-      desktopBackgroundColor: "transparent",
-      desktopTextColor: "#000000",
-      mobileTextColor: "#000000",
-      content: (
-        <>
-          <a href="https://open.spotify.com/album/7FwnfDrPIpwo8h2leFlCjR?si=6oGbuNzrR0itRnoHV8_f5g">
-            <img
-              className={styles.supplementalImageType2}
-              src="../redeyes.png"
-              alt="My font"
-              href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
-              onClick={() => ""}
-            />
-          </a>
-          <p>
-            I guess you could call me a 'creative director'. Actually, not yet.
-            As of right now, this promo cover has not been used. But that is not
-            to say it won't happen!
-          </p>
-          <p>
-            Tealsky is a promising band whose drummer is a close friend of mine.
-            Whether its publicized or not, I could never pass up a creative
-            opportunity.
-          </p>
-          <p>
-            If you are reading this, I have good ideas! Look at them, and if you
-            think the same, let me know. I am always looking for a chance to
-            make something.
-          </p>
         </>
       ),
     },
