@@ -7,6 +7,56 @@ import "../styles/globals.css";
 export default function Blog() {
   const blogPosts = [
     {
+      title: "Grids",
+      description: "grid.png is made by Rory Campbell!",
+      timestamp: "11:13:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            className={styles.supplementalImageType2}
+            src="../grid.png"
+            alt="My font"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+          <p>
+            I've been thinking about grids lately. More specifically, I have
+            been thinking about how they are everywhere.
+          </p>
+          <p>
+            We live in space, right? Without constraints, space would be
+            undefined. Great! We understand what a dimension is.
+          </p>
+          <p>
+            This is not going to be a lesson in calculus, don't worry. What I am
+            really interested in is how that concept translates to our lives
+            PRACTICALLY. If you are in a building right now, you are inside a
+            grid. If you are outside right now, you are still in a grid!
+          </p>
+          <img
+            className={styles.supplementalImageType2}
+            src="../bendingspace.png"
+            alt="My font"
+            href="https://www.youtube.com/watch?v=PUQfNBzMjiw"
+            onClick={() => ""}
+          />
+          <p>
+            Hehe...but for real.
+            <br /> A constraint can be something helpful, like sleeping 8 hours,
+            or watching what you say around a narcisist!
+            <br />
+            They can also be bad, like when we lose confidence in ourselves.
+            <br />
+            Grids are INESCAPABLE, and that's a good thing (as long as you know
+            you are in one).
+          </p>
+        </>
+      ),
+    },
+    {
       title: "Tealsky Promo",
       description: "Streaming right now (spotify link on the picture)",
       timestamp: "11:07:2024",
