@@ -16,7 +16,7 @@ export default function Blog() {
       content: (
         <>
           <img
-            className={styles.supplementalImageType2}
+            className={styles.supplementalImageType3}
             src="../grid.png"
             alt="My font"
             href="https://www.youtube.com/watch?v=PUQfNBzMjiw"

@@ -83,6 +83,20 @@
     //border-radius: 8px; /* Rounded corners for aesthetics */
 }
 
+.supplementalImageType3 {
+    width: 100%; /* Match the width of the blog column */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    object-fit: contain; /* Prevent image distortion */
+    margin: 20px 0;
+    //border-radius: 8px; /* Rounded corners for aesthetics */
+}
+
+.supplementalImageType3:hover {
+    transform: scale(1.05);
+    transition: transform 3s ease;
+}
+
 /* Responsive Styles */
 
 /* Medium Screens (Tablets and Small Desktops) */
