@@ -31,10 +31,10 @@ export default function Blog() {
             undefined. Great! We understand what a dimension is.
           </p>
           <p>
-            This is not going to be a lesson in calculus, don't worry. What I am
-            really interested in is how that concept translates to our lives
-            PRACTICALLY. If you are in a building right now, you are inside a
-            grid. If you are outside right now, you are still in a grid!
+            This isn't about calculus. What I am really interested in is how
+            that concept translates to our lives PRACTICALLY. If you are in a
+            building right now, you are inside a grid. If you are outside right
+            now, you are still in a grid!
           </p>
           <img
             className={styles.supplementalImageType2}
