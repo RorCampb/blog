@@ -17,6 +17,7 @@ export default function Home() {
     "/page6.png",
     "/page7.png",
     "/page8.png",
+    "/page9.png",
   ];
 
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
