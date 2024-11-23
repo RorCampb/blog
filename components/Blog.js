@@ -7,6 +7,53 @@ import "../styles/globals.css";
 export default function Blog() {
   const blogPosts = [
     {
+      title: "Red Eyes Promo #2",
+      description: "Dreamyyyy :)",
+      timestamp: "11:21:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            className={styles.supplementalImageType2}
+            src="../tealskypromo2.png"
+            alt="tealskypromo2"
+            href=""
+            onClick={() => ""}
+          />
+          <p>
+            Another Tealsky promo; and this time, they actually posted it! That
+            is not a knock on the wonderful members of Tealsky. It is actually a
+            call for celebration! Between a full time job of my own, learning to
+            paint, and trying to make new art every week, finding time to be
+            still and celebrate a win is not to be taken for granted.
+            <br />
+            Work is fun! Work is hard. Work is rewarding! Work, when its
+            something you love, is one of the greatest things life has to offer.
+            I have noticed, unfortunately, that the greatest things we have are
+            especially taxing on our spirit.
+            <br />
+            Everyone wants to be fulfilled. To end their day with a sense of
+            accomplishment or satisfaction with themselves. But standing right
+            between us and that joy is a sort of void.
+            <br />
+            The void is all that we don't know. The things we are trying to see
+            for ourselves, but aren't quite sure where to find.
+            <br />
+            And so, our roles as individuals come in. We accept that there is no
+            person on this planet that can point us directly to our aspirations.
+            We must walk into the unknown, using our faith to guide us towards
+            what we know is possible.
+            <br />
+            <br />
+            Listen to Red Eyes by Tealsky, it's out now on all major streaming
+            platforms
+          </p>
+        </>
+      ),
+    },
+    {
       title: "Grids",
       description: "grid.png is made by Rory Campbell!",
       timestamp: "11:13:2024",

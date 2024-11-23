@@ -109,10 +109,16 @@ export default function Home() {
               className="modal-image"
               onClick={closeModal}
             />
-            <div className="nav-buttons">
-              <button onClick={goToPreviousPage}>Previous</button>
-              <button onClick={closeModal}>Close</button>
-              <button onClick={goToNextPage}>Next</button>
+            <div className="nav-buttons-container">
+              <button className="nav-button" onClick={goToPreviousPage}>
+                Previous
+              </button>
+              <button className="nav-button" onClick={closeModal}>
+                Close
+              </button>
+              <button className="nav-button" onClick={goToNextPage}>
+                Next
+              </button>
             </div>
           </div>
         </div>

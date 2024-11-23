@@ -199,7 +199,9 @@ body {
 
 .navbar {
     flex: 0.2; /* 20% of the height */
-    background-color: #f33333; /* Transparent background */
+    background-color: rgba(220, 220, 220, 1);
+    color: black;
+    font-family:;
 }
 
 .header {
@@ -319,11 +321,20 @@ body {
 }
 
 /* Navigation Buttons */
-.nav-buttons {
+.nav-buttons-container {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
+    font-family: Georgia, serif;
+}
+
+.nav-button {
+    font-family: Georgia, serif;
+    background-color: rgba(220, 220, 220, 1);
+    width: 5rem;
+    color: black;
+    border-radius: 15px;
 }
 
 /* Responsive Image Styles */
