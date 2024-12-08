@@ -7,6 +7,74 @@ import "../styles/globals.css";
 export default function Blog() {
   const blogPosts = [
     {
+      title: "Sport Co. T-Shirt",
+      description: "Big sports guy here",
+      timestamp: "12:07:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>
+            I know, there hasn't been much output from me this holiday season.
+            At least, not on the website. Production is not stopping, DON'T
+            WORRY. The last week or so, I have actually been trying to develop
+            this idea of a mock sports brand, Sport Co.
+            <br />
+            Sport Co. was never 'created'. It has never endorsed an athlete or
+            pushed a major ad campaign. Instead, I like to think of Sport Co. as
+            an embodiment of the concept of sports.
+            <img
+              className={styles.supplementalImageType2}
+              src="../sportcoshirt.png"
+              alt="sportcoshirt"
+              href=""
+              onClick={() => ""}
+            />
+            <br />
+            While designing the t-shirt graphic, I tried to center everything
+            around the core characteristics of what I recognize as sports.
+            <br />
+            The block lettering doesn't require much explanation; below it,
+            however, are some things that probably do. That big, blank, rounded
+            rectangle may not be something you'd see on an ordinary uniform.
+            Instead, it's something you're more likely to see in a weight room
+            or practice field.
+            <img
+              className={styles.supplementalImageType2}
+              src="../athleticshirt.webp"
+              alt="athleticshirt"
+              href=""
+              onClick={() => ""}
+            />
+            Maybe I could tell you that I left it blank because it represents
+            the indomitable spirit of human competition. That putting a label on
+            that spirit would be mortifying to me. In reality, I enjoy how it
+            looks being blank.
+            <br />
+            Now, the NUMBERS! These were what started the whole design process.
+            I wanted to make a shirt with digital characters because: <br />
+            1. They look neat. <br />
+            2. They carry two meanings to me <br />
+            The first is the obvious. Numbers are the biggest characteristic of
+            sports uniforms. As children (and adults), we identify numbers with
+            our biggest heroes. They act like the logo for your favorite
+            superhero!
+            <br />
+            Also, by making them in the style of digital characters, they
+            represent what both our favorite players and ourselves are
+            constantly fighting against. TIME.
+            <br />
+            From practicing a buzzer beater in the driveway, to working on a
+            deadline, we will never escape the concept of a countdown. I was
+            hoping that incorporating that 01 into the design could help keep a
+            reminder to myself, that I am always working on a shot clock. And,
+            if I play my cards right, I can be the game winner.
+          </p>
+        </>
+      ),
+    },
+    {
       title: "Red Eyes Promo #2",
       description: "Dreamyyyy :)",
       timestamp: "11:21:2024",
