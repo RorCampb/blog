@@ -7,6 +7,40 @@ import "../styles/globals.css";
 export default function Blog() {
   const blogPosts = [
     {
+      title: "Posh Priest Shirt",
+      description: "A little something to hold y'all over:)",
+      timestamp: "12:18:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            className={styles.supplementalImage}
+            src="../priestshirt.png"
+            alt="priest shirt"
+            href=""
+            onClick={() => ""}
+          />
+          <p>
+            So I've been workin on some stuff! It's exciting, engaging,
+            continuous, and yet to be revealed. In the meantime, I have this
+            cute little garment I've come up with in Illustrator over the past
+            few days.
+            <br />I found that the structure of this shirt was similar to the
+            vestments you'd see a priest wearing; and, to be honest, I think I
+            am okay with that! Those of you who followed me about a year ago
+            will probably notice some similarities to the star-C apparel
+            prototype. If not, go do some homework!
+            <br />
+            <br />I promise there will be more Rory originals posted soon, just
+            bear with me while work wraps up. Merry Christmas and all of that, I
+            love you guys!
+          </p>
+        </>
+      ),
+    },
+    {
       title: "Sport Co. T-Shirt",
       description: "Big sports guy here",
       timestamp: "12:07:2024",
