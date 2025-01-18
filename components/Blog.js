@@ -1,11 +1,61 @@
 // components/Blog.js
 "use client";
+import { useState, useEffect } from "react";
 import BlogBlock from "./BlogBlock.js";
 import styles from "../styles/BlogBlock.module.css"; // Import Blog styles
 import "../styles/globals.css";
 
 export default function Blog() {
+  const [enlargedImageId, setEnlargedImageId] = useState(null); // Track the ID of the enlarged image
+
+  const handleImageClick = (id) => {
+    setEnlargedImageId((prevId) => (prevId === id ? null : id)); // Toggle enlargement
+  };
   const blogPosts = [
+    {
+      title: "Rory Campbell Painting",
+      description: "I love you Mom and Dad!",
+      timestamp: "01:14:2024",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>
+            It has been almost a month since rorycampbell.me was updated. I am
+            so SORRY.
+            <br />
+            If it makes you feel any better, I've been working on some pretty
+            cool stuff. That stuff includes the first finished painting of my
+            life (see below).
+            <img
+              key="IMG_5136"
+              className={styles.supplementalImage}
+              src="../IMG_5136.png"
+              alt="painting"
+              href=""
+              onClick={() => handleImageClick("IMG_5136")}
+              style={{}}
+            />
+            I worked on this painting over the course of a week or so. If you
+            don't recognize it, the painting depicts my parents and I posing in
+            front of the bull at the New York Stock Exchange.
+            <br />
+            Painting is something I've always wanted to learn, but never took
+            the time to. My experience with drawing has definitely helped me
+            ramp up into the foundations of the medium. But, even so, learning
+            to translate monotone drawings to a colored composition is not easy!
+            <br />
+            If you are like me, learning new things like this is very exciting!
+            And, if you are even more like me, you also get a little dejected
+            when climbing that mountain of experience. No reason to worry,
+            though! With the power of my inpervious spirit, my skills will be
+            honed.
+            <br />
+          </p>
+        </>
+      ),
+    },
     {
       title: "Posh Priest Shirt",
       description: "A little something to hold y'all over:)",
