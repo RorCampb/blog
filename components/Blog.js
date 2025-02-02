@@ -13,9 +13,50 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "He's Alive!",
+      description: "Mood(?)",
+      timestamp: "02:02:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          Painting number TWO has been released to the public!
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="../IMG_5350.png"
+            alt="painting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          When I first started painting (last August), I dove straight into my
+          imagination. What came of that was an emotionless portrait of a bald
+          man. I wouldn't say we've come a LONG way, but some progress has been
+          made.
+          <br />
+          My new painting is my own interpretation of Frankenstein's monster.
+          Our boy is confused, pale, and well accessorized.
+          <br />
+          We don't have to get too interpretive with it, but the feeling I got
+          when creating this guy was "confused". If you had already lived a full
+          life, what would your motivations be? If you'd previously led a life
+          of evil, would you repent? Or, if you lived a life of love, would you
+          take the chance to invoke chaos? The cannon Frankenstein's monster
+          tried his best to be a good guy. But, as you'd expect, the first
+          impressions he left on the living were quite repulsive.
+          <br />
+          So, what would the monster be like if you were the first to meet him?
+          Would you inspire a life of fruitful pursuits? Or, are we a catalyst
+          for the destructive nature that resides in all of us?
+        </>
+      ),
+    },
+    {
       title: "Rory Campbell Painting",
       description: "I love you Mom and Dad!",
-      timestamp: "01:14:2024",
+      timestamp: "01:14:2025",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
