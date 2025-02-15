@@ -13,6 +13,51 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "Tealsky Promo 3",
+      description: "Flyers",
+      timestamp: "02:15:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="../DD3A78B8-1F28-4B7F-A360-BBDA4638CFEF_1_105_c.jpeg"
+            alt="painting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="../5C602584-1F89-4076-9E48-E3C50ED8972B.jpeg"
+            alt="painting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="../75F98B7F-67DF-4241-A744-B356B2306215.jpeg"
+            alt="painting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          <p>
+            It's time for a supply of Tealsky content! The flyers were for their
+            first two concerts of 2025. <br />
+            And, yeah, thats about it for now. NEW PAINTING COMING SOON!
+            <br />
+          </p>
+        </>
+      ),
+    },
+    {
       title: "He's Alive!",
       description: "Mood(?)",
       timestamp: "02:02:2025",
