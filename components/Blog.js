@@ -13,7 +13,7 @@ export default function Blog() {
   };
   const blogPosts = [
     {
-      title: "Tealsky Promo 3",
+      title: "Tealsky Promo #3",
       description: "Flyers",
       timestamp: "02:15:2025",
       desktopBackgroundColor: "transparent",
