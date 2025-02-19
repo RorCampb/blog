@@ -13,6 +13,43 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "How Far Is Heaven?",
+      description: "Cheeked Up",
+      timestamp: "02:15:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          We are on pace with our painting goal for this year! This month, I
+          decided to try combining my imagination with the real world.
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="../369D10F4-C214-49DC-9F88-6714158496F5_1_102_o.jpeg"
+            alt="painting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          The painting depicts an angel prostrated outside of Dallas city
+          limits. Which angel, if they are prostrating, and what city are
+          ultimately up to you. I do suppose that, since I made it, I can make
+          my own assumptions. <br />
+          The composition is a bright one. It's a sunny day, the city looks
+          colorful, and there's a train wreck! Or, more specifically, a DART
+          wreck. <br />I don't know if the angel is a cause of that day's
+          problems. But, I do believe they are feeling awfully sad about
+          whatever happened. We see the angel prostrated to whatever stands
+          before them, presumably God. Is our man (technically a genderless
+          spiritual entity) asking forgiveness for whatever foul deeds affected
+          the city? Honestly, it's whatever. Whoever wants to take the time to
+          contemplate is more than welcome:)
+        </>
+      ),
+    },
+
+    {
       title: "Tealsky Promo #3",
       description: "Flyers",
       timestamp: "02:15:2025",
