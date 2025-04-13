@@ -13,9 +13,44 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "Big Sky Eye",
+      description: "It's a bird, it's a plane!",
+      timestamp: "04:13:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          If you follow my instagram, you know that this post is long overdue.
+          Better now than never, right?
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="..//IMG_5484.png"
+            alt="EYEpainting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          My March painting is probably my favorite so far! Despite its
+          simplicity, I really enjoyed trying to get the green values right for
+          the cornea.
+          <br />I didn't have much intention in creating some direct meaning for
+          this painting. Of course, there is that little man placed in the
+          center. I guess I just wanted to bring something a little creative
+          into the composition.
+          <br />
+          We can keep things short, for now. Y'all will be pleasantly surprised
+          with a batch of new creations that are COMING SOON. I love you all
+          very much!
+        </>
+      ),
+    },
+
+    {
       title: "How Far Is Heaven?",
       description: "Cheeked Up",
-      timestamp: "02:15:2025",
+      timestamp: "02:17:2025",
       desktopBackgroundColor: "transparent",
       desktopTextColor: "#000000",
       mobileTextColor: "#000000",
