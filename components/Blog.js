@@ -2,6 +2,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import BlogBlock from "./BlogBlock.js";
+import ShopifyBuyButton from "./ShopifyBuyButton";
 import styles from "../styles/BlogBlock.module.css"; // Import Blog styles
 import "../styles/globals.css";
 
@@ -12,6 +13,19 @@ export default function Blog() {
     setEnlargedImageId((prevId) => (prevId === id ? null : id)); // Toggle enlargement
   };
   const blogPosts = [
+    {
+      title: "I LOVE LIFE tee",
+      description: "Made by Rory in America!",
+      timestamp: "05:04:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <ShopifyBuyButton />
+        </>
+      ),
+    },
     {
       title: "Big Sky Eye",
       description: "It's a bird, it's a plane!",
