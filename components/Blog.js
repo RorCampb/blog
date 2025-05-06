@@ -27,6 +27,56 @@ export default function Blog() {
       ),
     },
     {
+      title: "Big Plant Eye",
+      description: "Eye don't know what to say...hehe",
+      timestamp: "05:06:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          BEHOLD...
+          <img
+            key="IMG_5350"
+            className={styles.supplementalImage}
+            src="../9E284BA7-FB9F-4EC0-A29F-BF9C95CBE757_1_102_a.jpeg"
+            alt="EYEpainting"
+            href=""
+            onClick={() => handleImageClick("IMG_5136")}
+            style={{}}
+          />
+          It's a new eye! Or, maybe a plant? Or, maybe God? Or, a painting. So
+          many options to choose from!
+          <br />
+          This is the fourth painting this year, and I'm starting to feel more
+          confident when I pick up the brush. What a cause for celebration!
+          <br />
+          The longer I go about doing this stuff, the more I find out about
+          myself. Particularly, why I do these things, and why I have such a
+          need to create. A need to create for myself and for others.
+          <br />
+          The answer is NOT simple. It has still got me stumped in a lot of
+          areas. A fraction of the answer, one that I think I have identified,
+          is to think. I want people, myself included, to think about the things
+          I make. There does not have to be a predefined meaning to any of the
+          things on this page. EVEN IF I make one, I could care less if you
+          choose to adopt that meaning.
+          <br />
+          What I do care about is if I could make you contemplate. It doesn't
+          have to be for long, maybe only a few seconds. The colors, the shapes,
+          the composition, literally anything. My belief is that if enough
+          thought is put into a work, or a body of work, a sort of underlying
+          direction is derived. Through the act of intention, this case being
+          intentional thought, one or many can start to decipher why thoughts go
+          in a certain direction.
+          <br />
+          Okay, that's enough for now. I promise there will be more content for
+          you all to read very soon. Also, if you are reading this, my shirts
+          are directly above this post. You should buy one:)
+        </>
+      ),
+    },
+    {
       title: "Big Sky Eye",
       description: "It's a bird, it's a plane!",
       timestamp: "04:13:2025",
