@@ -14,6 +14,67 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "Moon & Leaf",
+      description: "Some awfully pretty leaves!",
+      timestamp: "05:28:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          The next iteration of Rory painting. Watch yourself!
+          <img
+            key="Moon Leaf Painting"
+            className={styles.supplementalImage}
+            src="../IMG_5809.png"
+            alt="MOONLEAFpainting"
+            href=""
+            style={{}}
+          />
+          Not sure about you guys, but I think I am getting the hang of this.
+          Comparatively, I mean.
+          <br />
+          Logging this whole process of monthly paintings has been really
+          interesting for me. I had imagined that my progress would be trackable
+          across paintings.
+          <br /> HOWEVER
+          <br />I did not imagine the way the progression would present itself.
+          From my perspective, the "quality" of each new work is not following a
+          linear progression. The real improvements are in the wholistic quality
+          of these things.
+          <br />
+          Sketching out composition, choosing the color pallete, rendering
+          shadows. These are all things that used to feel like shots in the
+          dark. Now, they are more like shots in the slightly illuminated.
+          <br />
+          It's becoming more and more boring to explain the ways I feel
+          improvement. So, I think we can move on to discussing what is actually
+          going on here. This painting is a part of my continuing effort to
+          snapshot the "greenscapes" I discover.
+          <br />
+          That really seems like an outrageous sentence. Like, what are
+          greenscapes? Or, what do I mean by a snapshot? I honestly couldn't
+          give an objective explanation. I can try my best though!
+          <br />
+          You ever look up at a tree? See the light coming in through its
+          cavities? Usually, for me at least, these glipses feel like a flash
+          photograph. I'm often moving when I do this, walking out of my
+          apartment or driving through a neighborhood. By the time I look up,
+          stare at the pretty plants, and look back at the ground, I feel almost
+          like that glipse never happened. There's this beautiful, vibrant
+          spread of natural beauty. It is always there, it is always waiting to
+          be noticed. Despite this, most people (including myself) will walk on
+          by. What I am trying to convey here, in this painting, is the feeling
+          of a glimpse at beauty. <br />I don't want it to look like a
+          landscape, the objective photorealistic depiction of the things I see.
+          I want to feel like I am seeing the abstracted compilation of all of
+          those colors and values hitting my eyes. Does that make sense? If not,
+          I think I can get the message across soon. Just give me a few more
+          paintings.
+        </>
+      ),
+    },
+    {
       title: "I LOVE LIFE tee",
       description: "Made by Rory in America!",
       timestamp: "05:04:2025",
