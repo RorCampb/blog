@@ -58,7 +58,7 @@ export default function Blog() {
             Take this painting, and the process taken to make it. Crafting its
             predecessors, those who will not be seen, gave me quite a dejected
             feeling. Inside my brain, the form of the branches and the lighting
-            of the leaves could not click in my brain.
+            of the leaves would not click.
           </p>
           <p>
             This was a surprise. I mean, look, I have been able to paint trees
