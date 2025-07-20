@@ -14,6 +14,84 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "It's all in the trees!",
+      description: "Or, at least some of it",
+      timestamp: "07:20:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>The first thing I would like to say is, I am sorry.</p>
+          <p>
+            June was the first month that I couldn't provide you all with a new
+            painting. In my defense, I DID make more than one painting in that
+            6th month. The only issue is, they were terrible.
+          </p>
+          <p>
+            In some poetic way, I am sure one could derive beautiful things from
+            them;
+          </p>
+          <p>
+            Not me though, they are ugly, and you will probably never see them.
+          </p>
+          <p>
+            It's not to say these monstrosities were not fruitful. In fact, it
+            is because of them that a new painting was born.
+          </p>
+          <img
+            key="Branch"
+            className={styles.supplementalImage}
+            src="../7F394DB4-226E-4667-B118-FAC4BC82EB50_1_105_c.jpeg"
+            alt="BRANCHpainting"
+            href=""
+            style={{}}
+          />
+          <p>
+            This little guy, while admittedly not my favorite, is the result of
+            a few learnings. One of those is that success is NOT the magnitude
+            of fulfillment. Success and fulfillment might as well get a room
+            with how close to one another they are. Despite this, they remain
+            tightly insulated, and for good reason.
+          </p>
+          <p>
+            Take this painting, and the process taken to make it. Crafting its
+            predecessors, those who will not be seen, gave me quite a dejected
+            feeling. Inside my brain, the form of the branches and the lighting
+            of the leaves could not click in my brain.
+          </p>
+          <p>
+            This was a surprise. I mean, look, I have been able to paint trees
+            before. No really, look, there is a green fella only a few swipes
+            below these words. This tree was quickly rendered, and left little
+            for me to linger on.
+          </p>
+          <p>
+            Alas, I can come back to the little thesis. Our July painting did
+            not impress my understanding of my own abilities. It was, in many
+            ways, a punch in the face to the ego I've been building since I
+            started painting.
+          </p>
+          <p>
+            So there's not much fulfillent here. And that's simply put. HOWEVER,
+            there is much success. Success in the committment to the idea,
+            success in my new approaches to the canvas, success in the refusal
+            to compromise. Maybe the idea wasn't as great as I had hoped, but it
+            was my idea. And, maybe that's what it is really about. I know that
+            THIS is what my idea looks like, and without my persistance, that
+            idea would never be any more.
+          </p>
+          <p>
+            What I am trying to say is you won't always end up with something
+            that impresses. Many times you may have to face that who you are
+            isn't enough to make what you want. But, when you face who you are,
+            and what you CAN do, and what you CAN improve to make that thing,
+            the little successes that you've never seen may begin to show.
+          </p>
+        </>
+      ),
+    },
+    {
       title: "Moon & Leaf",
       description: "Some awfully pretty leaves!",
       timestamp: "05:28:2025",
