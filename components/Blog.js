@@ -14,6 +14,103 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "Pool Talkin",
+      description: "Feels like summer, or somethin",
+      timestamp: "08:21:2025",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>
+            Hey there everyone. What a wonderful summer it has been. With its
+            passing, another painting goes before your eyes.
+            <img
+              key="Branch"
+              className={styles.supplementalImage}
+              src="../20236EC2-22E7-4F40-B31B-F9F277BD4FAB.jpeg"
+              alt="BRANCHpainting"
+              href=""
+              style={{}}
+            />
+            <p>
+              Not bad, right?
+              <br />
+              I'm sure you noticed that big blue blob in the middle. The
+              swimming pool, a staple of the season! What is our pool saying?
+              Who is our pool saying it to? Hopefully I can clarify that for
+              you.
+              <br />
+              The pool composition was something that just came to me, honestly.
+              And, I don't wanna be that guy, "Yeah man the paintings just come
+              to me". But really, it just happened.
+              <br />
+              Conception isn't the whole story though. There is much, MUCH
+              more:)
+              <br />
+              Our pool is something greater than a premonition. I like to think
+              of it as a symbol. Oh boy, a symbol in a painting! I'm just full
+              of original thoughts today. Self deprication aside, it is a
+              symbol. A symbol of WORK. Work, everyone's favorite noun. This
+              pool was something that I repainted probably three or four times.
+              This isn't all too abnormal for me, and is not the real reason I
+              compare it to the W word.
+              <br />
+              The reason it's work is because of WHY I needed to repaint it.
+              <br /> I absolutely could not figure out how to paint water.
+            </p>
+            <p>
+              I've been realizing what work feels like this year. Work feels
+              good, work feels bad, work feels hard. Most importantly, work
+              FEELS. That feeling you get when you know for a fact that you have
+              no idea what you are doing. Work is really, really challenging.
+              Work is something that will stroke your ego while destroying your
+              confidence.
+              <br />
+              Lets get more specific. My mind, body, and spirit are one in work.
+              If they aren't, I can't get my work done.
+              <br />
+              Imagine this focus like the rasengan. You know, Naruto's signature
+              energy orb?
+              <img
+                key="Branch"
+                className={styles.supplementalImage}
+                src="../narutor.webp"
+                alt="BRANCHpainting"
+                href=""
+                style={{}}
+              />
+              Yeah, this isn't a picture of the rasengan. It's actually a
+              picture of Naruto right BEFORE he learned to make one. See that
+              focus? That determination? Our boy is completely locked in to his
+              work. Do you think that Naruto knew exactly what wielding the
+              rasengan felt like?
+              <br />
+              Real life work and focus is just the same. To obtain anything
+              worthwhile, there must be some period of what I will call
+              "unreferenced progression".
+              <br />
+              Unreferenced progression is working towards something that does
+              not have a clear reference of completion. Naruto knows that
+              immediate completion is making a rasengan. Rory knows that
+              immediate completion is painting the pool. But why are we making
+              the attempt accomplish these things?
+              <br />
+              Sure, you could say Naruto wants to be Hokage. But if you watched
+              the show, you know that what dude really wanted was to protect his
+              friends. Tell me, what specific action quantifies protecting your
+              friends? Does it stop at the rasengan, being the strongest ninja,
+              hokage? It is none of those things. Protecting his friends was
+              something that Naruto has always succeeded AND failed at. <br />
+              The act of work and focus is a perfect balance of failure and
+              success. Thus concludes, until next time!
+              <br />
+            </p>
+          </p>
+        </>
+      ),
+    },
+    {
       title: "It's all in the trees!",
       description: "Or, at least some of it",
       timestamp: "07:20:2025",
