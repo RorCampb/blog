@@ -14,6 +14,79 @@ export default function Blog() {
   };
   const blogPosts = [
     {
+      title: "Woah Woah Woah",
+      description: "The end of procrastination",
+      timestamp: "04:13:2026",
+      desktopBackgroundColor: "transparent",
+      desktopTextColor: "#000000",
+      mobileTextColor: "#000000",
+      content: (
+        <>
+          <p>
+            Time might have been slipping away from me, or maybe it's
+            responsibility.
+          </p>
+          <p>Nothing to get worked up about.</p>
+          <p>
+            The last...8...months(?) were put to good use. All of it has
+            flashed by, most moments coming more than going. That is why I love
+            this place! So many things to see and do. That is, besides iRacing
+            and Baldur's Gate. Tealsky is the focus of my artistic endeavors at
+            the moment. They make music, I make art. Art like
+          </p>
+          <p>a new logo:</p>
+          <img
+            key="Branch"
+            className={styles.supplementalImage}
+            src="../tealsky_sword_gazed.png"
+            alt="TealskyLogo"
+            href=""
+            style={{}}
+          />
+          <p>a new website:</p>
+          <p>
+            <a
+              href="https://tealskytheband.com/music"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://tealskytheband.com/music
+            </a>
+          </p>
+	  <p>
+	     and a wide variety other nifty graphics:)
+	  </p>
+	  <img
+            key="Branch"
+            className={styles.supplementalImage}
+            src="../tealsky-spotify-bw.jpg"
+            alt="TealskyLogo"
+            href=""
+            style={{}}
+          />
+	  <img
+            key="Branch"
+            className={styles.supplementalImage}
+            src="../tealskygrid.jpg"
+            alt="TealskyLogo"
+            href=""
+            style={{}}
+          />
+	  <img
+            key="Branch"
+            className={styles.supplementalImage}
+            src="../tealsky_spotify_pfp.jpg"
+            alt="TealskyLogo"
+            href=""
+            style={{}}
+          />
+	  <p>
+	    World changing stuff going on guys. My world is changing, at least. There is literally TOO MANY things I'm planning on doing the rest of the year. My macbook is a landfill of forgotten ideas and developing perspectives. Slowly, we turn some rocks and pick a path to walk down.
+	  </p>
+        </>
+      ),
+    },
+    {
       title: "Pool Talkin",
       description: "Feels like summer, or somethin",
       timestamp: "08:21:2025",
